@@ -1,0 +1,33 @@
+.global-header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.proven-logo {
+  height: 40px;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    padding: 0 15px;
+  }
+
+  .proven-logo {
+    height: 32px;
+  }
+}
